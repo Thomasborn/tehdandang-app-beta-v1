@@ -1,0 +1,28 @@
+{
+    "name": "dandang-apps",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "host": "vite --host",
+        "build": "vite build",
+        "preview": "vite preview",
+
+        "json": "json-server --watch ./public/data/db.json --port 3001",
+        "json-host": "json-server --watch ./public/data/db.json --host 192.168.31.125 --port 3001",
+        
+        "git-graph": "git log --all --decorate --oneline --graph"
+    },
+    "dependencies": {
+        "pinia": "^2.1.7",
+        "primeicons": "^6.0.1",
+        "vue": "^3.3.8",
+        "vue-router": "^4.2.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.5.0",
+        "sass": "^1.69.5",
+        "vite": "^5.0.0"
+    }
+}

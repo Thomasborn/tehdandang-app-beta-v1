@@ -1,0 +1,4 @@
+@mixin glassmorph() {
+    background: var(--surface-glass);
+    backdrop-filter: blur(15px);
+}
